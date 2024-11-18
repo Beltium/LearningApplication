@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Learning Application</string>
+    <string name="welcome_msg">Bienvenue sur mon application d\'apprentissage !</string>
+</resources>

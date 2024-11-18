@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/clay">
+
+
+    <ImageView
+        android:id="@+id/back_menu_egg"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="5dp"
+        android:src="@drawable/retour"
+        android:layout_marginBottom="-40dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You're on the cookie clicker"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:fontFamily="@font/the_wild_breath_of_zelda"
+        android:layout_margin="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click to start"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:fontFamily="@font/the_wild_breath_of_zelda"
+        android:layout_marginTop="-10dp"
+        />
+
+    <ImageView
+        android:id="@+id/cookie"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:src="@drawable/cookie"
+        android:layout_gravity="center"
+        android:layout_marginTop="-50dp"
+        />
+
+    <ImageView
+        android:id="@+id/livai"
+        android:visibility="invisible"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/livai"
+        android:layout_gravity="left"
+        android:layout_marginTop="-250dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/charlie_kingdom"
+        android:text="Nombre de points :"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:layout_marginTop="100dp"
+        />
+
+    <TextView
+        android:id="@+id/points"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="0"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="150dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/charlie_kingdom"
+        />
+
+</LinearLayout>
